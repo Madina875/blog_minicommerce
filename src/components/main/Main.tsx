@@ -98,7 +98,7 @@ const Main = () => {
         {data?.map((item: Blog) => (
           <div
             key={item.id}
-            className="p-[10px] bg-red-100 flex flex-col gap-[20px]"
+            className="p-[10px] bg-gray-100 flex flex-col gap-[20px]"
           >
             <img className="rounded-2xl" src={item.avatar} alt="" />
             <h3>{item.title}</h3>
